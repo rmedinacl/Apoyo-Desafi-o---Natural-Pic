@@ -21,7 +21,7 @@ const Gallery = () => {
   return (
     <div
       className={`gallery p-3 ${
-        view === "Home" ? "grid-columns-4" : "grid-columns-4"
+        view === "Home" ? "grid-columns-5" : "grid-columns-5"
       }`}
     >
       {view === "Home" ? (
